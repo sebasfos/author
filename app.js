@@ -6,7 +6,7 @@ app.set('port',(process.env.PORT||8080))
 
 //basic test
 app.get('/',function(req,res){
-	res.send("<h1>Test Heroku show domain</h1>");
+	res.send("<h1>Test Heroku OK1</h1>");
 })
 
 //TEST CON kali>node app.js
